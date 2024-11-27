@@ -1,0 +1,149 @@
+.navbar {
+    color: #333333;
+    /* display: block; */
+    box-shadow: 4px 0px #171d27;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 165px;
+    margin-top: 12px;
+}
+.menu {
+    list-style: none;
+    display: block;
+    padding: 7px;
+}
+.menu li {
+    padding: 7px;
+    margin: 0;
+    text-align: left;
+}
+.menu li :hover {
+    background-color: #1a212c;
+    box-shadow: 0px 4px 8px  #171d27;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.name {
+    font-size: 1.5em;
+    color: #4b5b71;
+    padding: 12px; 
+}
+.name :hover {
+    background-color: #1a212c;
+    box-shadow: 0px 4px 8px  #171d27;
+    font-size: 1.2em;
+}
+.icons {
+    display: flex;
+    justify-content: left; 
+}
+.icons li {
+    padding: 5px;
+    margin: 5px;
+}
+.icons li a {
+    /* text-decoration: none; */
+    list-style-type: none;
+
+}
+ .icons :hover {
+    background-color: #1a212c;
+    box-shadow: 0px 4px 8px  #171d27;
+    font-size: 1.2em;
+}
+.footer {
+    margin: 5px;
+    height: 100vh; /* Sayfanın tamamını kapsar */
+    display: flex; /* Flexbox etkinleştir */
+    align-items: flex-end;
+    justify-content: center; /* Yatayda ortalar */
+    padding: 5px;
+}
+.powered {
+    padding: 5px;
+    margin: 5px;
+    color: #4b5b71;
+}
+.powered :hover {
+    color: red;
+
+}
+.icons-1 {
+    display: flex;
+    justify-content: left;
+}
+.icons-1 li {
+    padding: 5px;
+    margin: 5px;
+}
+.icons-1 li a {
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.icons-1 :hover {
+    background-color: #1a212c;
+}
+
+.content {
+    padding-left: 180px;
+    margin: 12px;
+    color: #4b5b71;
+    display: block;
+    width: 65%;
+}
+.about-me {
+    box-shadow: 0px 4px 8px  #171d27;
+    border: 1px solid #171d27;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 10px;
+}
+.proje {
+    padding: 10px;
+}
+.proje-1 {
+    box-shadow: 0px 4px 8px  #171d27;
+    border: 1px solid #171d27;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 10px;
+}
+.proje-2 {
+    box-shadow: 0px 4px 8px #171d27;
+    border: 1px solid #171d27;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 10px;
+}
+.btn {
+    box-shadow: 0px 4px 8px  #171d27;
+    border: 1px solid #171d27;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32%;
+    align-items: flex-start;
+    right: 0;
+    position: absolute;
+    height: 75%;
+    top: 0;
+}
+.box {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #171d27;
+    box-shadow: 0 4px 8px #171d27;
+    height: 100%; /* Kutuların yüksekliği */
+    width: 100%;
+    color: #4b5b71;
+}
+.container :hover {
+    box-shadow: 0 4px 8px #11151c;
+}
+
