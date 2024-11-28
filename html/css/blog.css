@@ -1,0 +1,85 @@
+.wrap {
+    width: 75%;
+    margin: 15px;
+    padding-left: 180px;
+}
+.post {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    border-bottom: 1px solid #171d27;
+    padding: 12px;
+}
+a {
+    color:#4b5b71;
+    text-decoration: none;
+}
+a :hover {
+    color: #171d27;
+}
+.img {
+    float: left;
+    height: auto;
+    height: 24%;
+}
+img {
+    padding-bottom: 2%;
+    display: block;
+    margin: auto auto;
+    text-align: center;
+  }
+
+/* width: 24%;
+float: left;
+margin-right: 2%; */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+    height: 74%;
+    float: right;
+}
+p {
+    color: #4b5b71;
+
+}
+p.yazar-bilgisi {
+    background-color: #171d2795;
+    padding: 0.5em;
+}
+ul.anahtar {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+}
+li {
+    color: #171d27;
+    display: inline-block;
+    padding: 0px 5px 0px 0px;
+}
+li :hover {
+    color: red;
+}
+h2{
+    font-size:175%;
+    line-height: 1.5em;
+    margin:.5em 0;
+}
+h2 :hover {
+    color: red;
+}
+.more-link {
+    text-align: center;
+    background: blue;
+    color: #171d27 !important;
+    padding: .5em .75em;
+    display: inline-block;
+    float: right;
+    border-radius: 5px;
+}
+.more-link:hover {
+    background-color: #4b5b71;
+}
